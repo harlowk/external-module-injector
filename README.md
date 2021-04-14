@@ -1,8 +1,7 @@
 # external-module-injector
 Provides a wrapper for injecting external modules using SystemJS; in such a way that type-def errors are avoided and the module can be easily mocked for testing. 
 
-Focused Use Case: 
-## Import Single-SPA Modules in an Angular TS Framework.  
+### Import Single-SPA Modules in an Angular TS Framework.  
 
 In the Single-SPA framework, external-modules are provided as a tool for sharing functionality between apps. Taking advantage of this awesome feature can sometime present issues when importing the module inside of a strictly-defined TS/JS Frameworks like Angular. 
 
